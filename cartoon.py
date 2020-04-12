@@ -31,6 +31,6 @@ def _cartoon(selection='all'):
 
 cmd.auto_arg[0]['_cartoon'] = [
     cmd.object_sc,
-    'The selection which is turned into a cartoon style',
+    'the selection, which is to be turned into a cartoon style',
     ',',
 ]
