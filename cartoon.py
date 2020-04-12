@@ -25,6 +25,7 @@ def _cartoon(selection='all'):
     cmd.set_color('lgray', [0.6, 0.6, 0.6])
     cmd.color('lgray', 'elem C')
 
+    cmd.orient(selection)
     cmd.zoom(selection, 3, complete=1)
 
 
